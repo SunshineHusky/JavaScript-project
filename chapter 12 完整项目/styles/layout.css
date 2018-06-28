@@ -1,0 +1,126 @@
+section,header,article,nav{/*此元素显示为块级元素*/
+    display:block;
+}/*通配符选择器,设置每个元素样式*/
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    margin: 1em 10%;/*上下外边距1em,左右外边距10%*/
+    background-image: url(../images/background.gif);/*将图像设置为背景*/
+    background-attachment: fixed;/*背景图像固定*/
+    background-position: top left;/*背景图像起始位置*/
+    background-repeat: repeat-x;/*沿着X轴重复*/
+    max-width: 80em;/*设置段落最大宽度*/
+}
+header{
+    background-image: url(../images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+header nav{
+    background-image: url(../images/navbar.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+header nav li {
+    display: inline;
+}
+header nav li a{
+  display: block;
+  float: left;
+  padding: .5em 2em;
+  border-right: .1em solid;
+}
+article{
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+article img{
+    border-width: .1em;
+    border-style: solid;
+    /*设置轮廓宽度及其样式*/
+    outline-width: .1em;
+    outline-style: solid;
+}
+
+#about header{
+    background-image: url(../images/lineup.gif);
+}
+
+#about header{
+    background-image: url(../images/basshead.gif);
+}
+
+#about header{
+    background-image: url(../images/bassist.gif);
+}
+
+#about header{
+    background-image: url(../images/drummer.gif)
+}
+
+#slideshow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+
+#frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#imagegallery li{
+    display: inline;
+}
+
+td{
+    padding: .5em 3em;
+}
+
+dl{
+    overflow: hidden;
+}
+
+dt{
+    float: left;
+}
+
+dd{
+    float:left;
+}
+
+lable{
+    display:block;
+}
+
+fieldset{
+    border:0;
+}

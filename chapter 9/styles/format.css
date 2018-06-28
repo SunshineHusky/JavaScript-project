@@ -1,0 +1,57 @@
+/*
+* @Author: Marte
+* @Date:   2018-06-01 08:51:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-06-07 16:13:12
+*/
+body{
+    font-family: "Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+table{
+    margin: auto;
+    border: 1px solid #699;
+}
+
+caption{
+    margin: auto;
+    padding: .2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+th{
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    border: 1px dotted #699;
+    background-color: #9cc;
+    color: #000;
+}
+
+th,td{
+    width: 10em;
+    padding: .5em;
+}
+
+#intro{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.odd{
+    background:#ffc;
+}
+/*支持CSS3的浏览器使用此选择器隔行显示效果
+tr:nth-child(odd) {background-color: #ffc};
+
+tr:nth-child(even) {background-color: #fff};
+*/
+
+//CSS伪类改变鼠标悬停样式
+/*tr:hover{
+    font-weight: bold;
+}
+*/
